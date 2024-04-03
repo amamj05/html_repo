@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REVIEW PAGE</title>
     <style>
+        body {
+            background-size: cover;
+            background-color: rgb(241, 240, 171);
+
+        }
+
         .review_container {
             display: flex;
-            background-color: rgb(241, 240, 171);
-            margin: 20px;
+
+            margin: 0px;
         }
 
         .box {
-            padding: 30px;
+            padding: 10px;
             margin: 20px;
-           /* background: black;*/
+            /*background: rgb(252, 251, 195);*/
             width: 100%;
             /* color: wheat; */
-            text-align: center;
+            text-align: left
         }
-        #review_card{flex-wrap: wrap-reverse;}
 
-        img{width: 20%;}
+        #review_card {
+            flex-direction: column-reverse;
+        }
+
+        img {
+            width: 20%;
+            float: left;
+            padding: 30px;
+        }
     </style>
 </head>
-<body>
 
-    
-    
+<body>
 
     <div class="review_container" id="review_card">
         <div class="box">
             <img src="/img/bee.png" alt="">
-            벌 인형 샀어요~</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-    
-    </div>
-
-
-</div>
+            <h3>벌 인형 후기</h3>
+            <p>
+                벌 인형 샀어요~</p>
+        </div>
+        <div class="box"><img src="/img/cat.png" alt="">
+            <h3>고양이 인형 후기</h3>
+            <p>
+                고양이 인형 샀어요~</p>
+        </div>
+        <div class="box"><img src="/img/elephant.png" alt="">
+            <h3>코끼리 인형 후기</h3>
+            <p>
+                코끼리 인형 샀어요~</p>
+        </div>
+        
 
 </body>
+
 </html>
