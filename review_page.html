@@ -9,6 +9,7 @@
         body {
             background-size: cover;
             background-color: rgb(241, 240, 171);
+            position:relative;
 
         }
 
@@ -31,15 +32,22 @@
             flex-direction: column-reverse;
         }
 
-        img {
+        .box img {
             width: 20%;
             float: left;
             padding: 30px;
+        }
+
+        #menu_bar{
+            width: 7%;
+            position: absolute;
         }
     </style>
 </head>
 
 <body>
+
+    <img src="/img/menu-bar.png" alt="" id="menu_bar" onclick="">
 
     <div class="review_container" id="review_card">
         <div class="box">
@@ -63,3 +71,4 @@
 </body>
 
 </html>
+
